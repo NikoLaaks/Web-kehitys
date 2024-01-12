@@ -1,0 +1,99 @@
+body{
+    background-color: azure;
+    font-size: 14px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: rgb(189, 198, 238);
+    font-size: 20px;
+    text-decoration: dotted;
+    color: aliceblue;
+    padding: 1em;
+}
+nav{
+    background-color: rgb(247, 236, 178);
+    padding: 0.2em;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.top-menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-menu a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.top-menu a:link{
+    color: black;
+}
+.top-menu a:visited{
+    color: red;
+}
+.top-menu a:hover{
+    color: rgb(255, 0, 0);
+}
+
+h2{
+
+}
+
+p{
+
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+    margin: auto;
+}
+section{
+
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    max-width: 250px;
+    border: 10px;
+}
+.h2spe{
+    background-color: blue;
+    color: aliceblue;
+}
+#main-header{
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+#main-header h1{
+    margin: 0;
+    font-size: 32px;
+}
+#main-header p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.content-article{
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.content-article h2{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.content-article p{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
